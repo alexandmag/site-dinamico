@@ -173,7 +173,7 @@ nav.desktop a:hover { /*Transição mais suave ao passar o mouse*/
 }
 
 .descricao-autor {
-    padding: 30px 0;
+    padding: 80px 0;
 }
 
 .descricao-autor h2 {
@@ -186,15 +186,61 @@ nav.desktop a:hover { /*Transição mais suave ao passar o mouse*/
     font-size: 16px;
     color: #444;
     margin-top: 10px;
+    text-align: justify;
 }
 
 .descricao-autor img {
     border-radius: 4px;
+    border-style: outset;
 }
 
 .foto {
     display: flex;
     justify-content: center; /*Centralizar a div da imagem na horizontal*/
+}
+
+.especialidades {
+    padding: 50px 0;
+    background: #e2e2e2;
+}
+
+.especialidades .title {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(99, 99, 99);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.box-especialidade {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.box-especialidade h3 {
+    font-size: 43px;
+    color: #404580;
+    margin-bottom: 10px;
+}
+
+.box-especialidade h3:hover {
+    color: #6066a8;
+    transition: .5s;
+}
+
+.box-especialidade h4 {
+    margin-bottom: 20px;
+    cursor: default;
+    font-weight: 300;
+    font-size: 32px;
+    color: rgb(99, 99, 99);
+}
+
+.box-especialidade p {
+    margin: 10px 20px;
+    letter-spacing: 0.5px;
+    color: #444;
+    text-align: justify;
 }
 
 @media screen and (min-width: 781px) {
@@ -214,6 +260,9 @@ nav.desktop a:hover { /*Transição mais suave ao passar o mouse*/
     }
     .w50 {
         padding: 20px;
+        width: 100%;
+    }
+    .w33 {
         width: 100%;
     }
 }
