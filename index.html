@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto 01</title>
+    <title>site-dinamico</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="center">
-            <div class="logo left">Logomarca</div>
+            <div class="logo left">AlexandMag</div>
             <nav class="desktop right">
                 <ul>
                     <li><a href="">Home</a></li>
@@ -21,6 +21,9 @@
                 </ul>
             </nav>
             <nav class="mobile right">
+                <div class="botao-menu-mobile">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
@@ -33,11 +36,12 @@
     </header>
 
     <section class="banner-principal">
+        <div class="overlay"></div><!--overlay-->
         <div class="center">
             <form>
                 <h2>Qual o seu melhor e-mail?</h2>
                 <input type="email" name="email" required>
-                <input type="submit" name="acao" value="Cadastrar!">
+                <input type="submit" name="acao" value="Cadastre-se">
             </form>
         </div><!--center-->
     </section><!--Banner-principal-->
@@ -50,7 +54,9 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum explicabo porro ex maxime nemo saepe accusamus quo cum dolorem tenetur in, inventore voluptate nesciunt enim fuga laudantium quidem asperiores fugit?</p>
             </div><!--w50-->
             <div class="w50 left">
-                <img src="./images/foto.jpeg" alt="">
+                <div class="foto">
+                    <img class="right" src="./images/foto.jpeg" alt="">
+                </div><!--foto-->
             </div><!--w50-->
             <div class="clear"></div>
         </div><!--center-->
