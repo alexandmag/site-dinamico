@@ -282,7 +282,6 @@ nav.desktop a:hover { /*Transição mais suave ao passar o mouse*/
 }
 
 .servicos li {
-    list-style-position: inside;
     padding-bottom: 30px;
 }
 
