@@ -50,9 +50,9 @@ header {
 }
 
 header .logo {
-    font-size: 25px;
-    font-weight: 300;
-    color: white;
+    width: 50px;
+    outline: none;
+    margin: -5px 0 -10px;
 }
 
 .mobile {
@@ -302,6 +302,13 @@ footer {
 }
 
 @media screen and (max-width: 780px) {
+    header {
+        padding: 20px 0 25px;
+    }
+    header .logo {
+        width: 35px;
+        margin-left: 15px;
+    }
     img {
         float: none !important;
         display: block;
@@ -315,9 +322,19 @@ footer {
     .w33 {
         width: 100%;
     }
+    .extras h3 {
+        padding-left: 0;
+    }
+
+    .servicos {
+        padding: 35px 0 0 0;
+    }
 }
 
 @media screen and (max-width: 700px) {
+    header{
+        padding-right: 15px;
+    }
     nav.desktop {
         display: none;
     }
@@ -336,7 +353,7 @@ footer {
         position: absolute;
         left: 0;
         top: 55px;
-        display: block;
+        display: none;
         text-align: center;
     }
     nav.mobile li {
