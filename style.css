@@ -348,25 +348,25 @@ footer {
     }
     nav.mobile ul {
         margin-top: 20px;
-        width: 100%;
+        width: 35%;
         z-index: 3;
         position: absolute;
-        left: 0;
-        top: 55px;
+        right: 0;
+        top: 60px;
         display: none;
         text-align: center;
     }
     nav.mobile li {
         font-weight: 300;
         display: block;
-        background: white;
-        border-bottom: 1px solid rgb(243, 243, 243);
+        background: #31376b;
+        border: 1px solid #292e5f94;
         font-size: 17px;
-        padding: 8px 0;
+        padding: 10px 0;
     }
     nav.mobile li a {
         display: block;
-        color: #444;
+        color: white;
         text-decoration: none;
     }
 }
